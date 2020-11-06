@@ -1,0 +1,347 @@
+// stress testing
+// variables
+// abcdefghijklmnopqrstuvwxyz
+// mon-fri
+// white black blue purple red green yellow orange
+// wpm the quick brown fox jumped over lazy dog buddha wall toad in hole
+// sandwich idiot kitchen hell you donkey food raw
+// cards ace jack queen king joker shuffle swap
+// cap week recess study sleep depression sleep brain
+// twilight moon sun star galaxy break dawn midnight
+// fangs jacob bella wolf cub sparkle blood
+// water wet day sky energy notes school play
+// game state time chessboard pawn knight bishop rook moves turn
+// book pass test dry fish dead rain
+// die roll big small suit club spade card
+// cow chicken breakfast grass kfc lunch drink coke pepsi light diet dew mountain
+// night dinner supper hour
+// city road mh milky way trip life rule
+// year century independance colonize covid plague national pm president witch pyre fire flames
+
+procedure One {
+    while (a != 1) {							//1
+		a = 1;								//2
+		b = 2;								//3
+		c = 3;								//4
+		read d;								//5
+		print e;							//6
+		if (f > 1) then {						//4
+			call Two;						//5
+			call Three;						//6
+			mon = x + y; //10					//7
+			tues = y * z - a; 					//8
+		} else {
+			wed = thurs / fri;					//9
+			thurs = fri % 5 + w;					//10
+			print g;						//11
+			read h;							//12
+		}
+		while (i > 0 || j != k) { 					//13
+			if (red <= 18 && blue >= orange) then {			//14
+				call Two;					//15
+				yellow = red + brown/blue - green;		//16
+				purple = blue * red;				//17
+				blue = mon;					//18
+				white = black;					//19
+			} else {
+				i = j * k + i;					//20
+				j = j - k;					//21
+				k = i + k - j; 					//22
+				read i;						//23
+			} 
+		}
+		if (wpm > 120) then {						//24
+			the = quick + brown + fox;				//25
+			jumped = over * the * lazy * dog;			//26
+		} else {
+			buddha = jumped - over - the - wall;			//27
+			toad = in / the / hole;					//28
+		}
+	}
+	while ((l = m * n) && (o < p)) {					//29
+		if (sandwich > idiot || kitchen == hell) then {			//30
+			you = donkey;						//31
+			food = raw;						//32
+		} else {
+			read cards;						//33
+			print ace;						//34
+			print jack;						//35
+			print queen;						//36
+			print king;						//37
+			read joker;						//38
+			if (joker == 1) then {					//39
+				read cards;					//40
+				ace = 1;					//41
+				jack = 11;					//42
+				queen = 12;					//43
+				king = 13;					//44
+			} else {
+				shuffle = 1;					//45
+				swap = 1;					//46
+				ace = 13; 					//47	
+				jack = 12;					//48
+				queen = 11;					//49
+				king = 1;					//50
+			}
+		}
+	}
+	q = 2 - x;								//51
+	r = r + 1;								//52
+	s = s * s * s - a + c;							//53
+	t = s;									//54
+	u = u - x;								//55
+	print v;								//56
+	call Two;								//57
+	read v;									//58
+	call Three;								//59
+	while (cap > 1) {							//60
+		if (week == recess) then {					//61
+			study = 1;						//62
+			sleep = 1;						//63
+		} else {
+			cap = cap - 1;						//64
+			depression = 1;						//65
+			sleep = 0;						//66
+			brain = dead;						//67
+		}
+		w = x + y + z;							//68
+		y = a - b / c;							//69
+		z = z * 2;							//70
+		while (twilight > 0) {						//71
+			read moon;						//72
+			print sun;						//73
+			read star;						//74
+			print galaxy;						//75
+			moon = sky;						//76
+			break = dawn; 						//77
+			midnight = sun;						//78
+			twilight = twilight - 1;				//79
+		}
+		if (sun > moon) then {						//80
+			fangs = 0;						//81
+			jacob = black;						//82
+			bella = wolf;						//83
+			read cub;						//84
+		} else {
+			fangs = 2;						//85
+			sparkle = 1;						//86
+			blood = 450;						//87
+		}
+	}
+	z = y - x / w;								//88
+	v = u + t;								//89
+	s = r * q - p;								//90
+	p = o + n - m * l;							//91
+	k = k;									//92
+	j = i - h / g * f;							//93
+	e = d / c * b - a;							//94
+}
+
+procedure Two {
+	while (water == wet) {							//95
+		read week;							//96
+		print day; 							//97
+		day = mon;							//98
+		if (study > sleep) then {					//99
+			day = fri;						//100
+		} else {
+			read depression;					//101
+			depression = depression * 5;				//102
+			sleep = sleep - 100;					//103
+		}
+	}
+	read week;								//104
+	if (day > fri) then {							//105
+		while (sky != black) {						//106
+			energy = 10;						//107
+			notes = 0;						//108
+			school = 0;						//109
+			play = 50;						//110
+			sky = white;						//111
+		}//1
+		sleep = 1;							//112
+		energy = 0;							//113
+	}
+	game = 1;								//114
+	state = 1;								//115
+	time = 0;								//116
+	chessboard = 100; 							//117
+	pawn = 8;								//118
+	knight = 2;								//119
+	bishop = knight;							//120
+	rook = bishop;								//121
+	queen = 1;								//122
+	king = 1;								//123
+	while (game == 1) {							//124
+		if (turn == 1) then {						//125
+			read moves;						//126
+			moves = moves - 1;					//127
+		} else {
+			turn = turn + 1;					//128
+		}
+		if (king == 0) then {						//129
+			game = 0;						//130
+		}
+		if (pawn > 4) then {						//131
+			pawn = pawn - 1;					//132
+		} else {
+			rook = knight - 1;					//133
+			knight = bishop - 1;					//134
+			bishop = pawn/2;					//135
+		}
+		if (game != 0) then {						//136
+			state = state + 1;					//137
+		} else {
+			time = time + 1;					//138
+		}
+	}
+	call Three;								//139
+}
+
+procedure Three {
+	while (energy > 0) {							//140
+		if (sleep > 0) then {						//141
+			read book;						//142
+			print notes;						//143
+			school = 1;						//144
+			play = 1;						//145
+		} else {
+			sleep = 1;						//146
+			play = 0;						//147
+		}
+		energy = energy * sleep - play - school;			//148
+	}
+	game = 1;								//149
+	while (game != 2) {							//150
+		pass = 0;							//151
+		test = 1;							//152
+		while (test < game) {						//153
+			if (water == wet) then {				//154
+				sun = dry;					//155
+			} else {
+				fish = dead;					//156
+				water = dry;					//157
+				rain = 1;					//158
+			}
+			test = test + 1;					//159
+		}
+		if (test == pass) then {					//160
+			game = 2;						//161
+		} else {
+			game = 1;						//162
+		}
+	}
+	while (game == 2) {							//163
+		read die;							//164
+		if (die > 3) then {						//165
+			roll = big;						//166
+		} else {
+			roll = small;						//167
+		}
+		if (card == ace) then {						//168
+			game == 0;						//169
+		} else {
+			card = joker;						//170
+			die = 1;						//171
+		}
+		if (die > 6) then {						//172
+			game = 0;						//173
+			read die;						//174
+		} else {
+			print die;						//175
+			read suit;						//176
+			while (suit != club) {					//177
+				read card;					//78
+				if (suit == spade) then {			//179
+					read die;				//80
+				} else {
+					game = 1;				//181
+				}
+			}
+		}
+		if (card > 21) then {						//82
+			game = 0;						//183
+			play = 0;						//184
+		} else {
+			while (card < 5) {					//185
+				card = card + 1;				//186
+			}
+		}
+	}
+	call Four;								//187
+}
+
+procedure Four {
+	while (hour < 24) {							//188
+		read fish;							//189
+		read cow;							//190
+		read chicken;							//191
+		if ((sky == white) && (moon == yellow)) then {			//192
+			breakfast = fish;					//193
+			cow = grass;						//194
+			chicken = kfc;						//195
+		} else {
+			breakfast = 0;						//196
+			fish = sleep;						//197
+			cow = dead;						//198
+			chicken = wet;						//199
+		}
+		if ((sun == yellow) && (sky == blue)) then {			//201
+			lunch = cow + chicken;					//202
+			while (lunch > 1) {					//203
+				lunch = lunch - 1;				//204
+				print drink;					//205
+				if (drink == 1) then {				//206
+					coke = 0;				//207
+					pepsi = light;				//208
+				} else {
+					coke = diet;				//209
+					dew = mountain;				//210
+				}
+			}
+		} else {
+			day = night;						//211
+			lunch = 0;						//212
+			dinner = 0;						//213
+			supper = fish;						//214
+		}
+	}
+	while (day < 365) {							//215
+		read week;							//216
+		if (day == mon) then {						//217
+			print book;						//218
+			read notes;						//219
+		} else {
+			while (day < fri) {					//220
+				city = 7;					//221
+				mountain = 4;					//222
+				road = 1;					//223
+				mh = 370;					//224
+				milky = way;					//225
+			}
+			trip = 1;						//226
+			life = 42;						//227
+			rule = 34;						//228
+		}
+	}
+	while (year < 2000) {							//229
+		independance = 1965;						//230
+		colonize = 1930;						//231
+		covid = 19;							//232
+		plague = black;							//233
+		national = 88;							//234
+		pm = 3;								//235
+		if (president == f) then {					//236
+			independance = 1;					//237
+			year = 2000;						//238
+			century = 21;						//239
+			year = year + 1;					//240
+		} else {
+			century = 19;						//241
+			witch = 0;						//242
+			pyre = fire + flames;					//243
+			year = year + 1;					//244
+		}
+	}
+
+}
