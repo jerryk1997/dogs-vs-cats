@@ -1,348 +1,241 @@
-//stress testing
-// variables:
-// abcdefghijklmnopqrstuvxyz 
-// mon-fri
-// white black blue purple red green yellow brown orange
-// wpm the quick brown fox jumped over lazy dog buddha wall toad in hole
-// sandwich idiot kitchen hell you donkey food raw
-// cards ace jack queen king joker shuffle swap
-// cap week recess study sleep depression sleep brain
-// twilight moon sun star galaxy break dawn midnight
-// fangs jacob black bella wolf cub sparkle blood
-// water wet day sky energy notes school play 
-// game state time chessboard pawn knight bishop rook moves turn
-// book pass test dry fish dead rain
-// die roll big small suit club spade card
-// cow chicken breakfast grass kfc lunch drink coke pepsi light diet dew mountain
-// night day dinner supper hour
-// city mountain road mh milky way trip life rule
-// year independance colonize covid plague black national pm president
-
-
-procedure One {
-	while (a != 1) {
-		a = 1;
-		b = 2;
-		c = 3;
-		read d;
-		print e;
-		if (f > 1) then {
-			call Two;
-			call Three;
-			mon = x + y; //10
-			tues = y * z - a; 
-		} else {
-			wed = thurs / fri;
-			thurs = fri % 5 + w;
-			print g;
-			read h;
-		}
-		while (i > 0 || j != k) { 
-			if (red <= 18 && blue >= orange) then {
-				call Two;
-				yellow = red + brown/blue - green;
-				purple = blue * red;
-				blue = mon;
-				white = black;
-			} else {
-				i = j * k + i;
-				j = j - k;
-				k = i + k - j; //25
-				read i;	
-			} 
-		}
-		if (wpm > 120) then {
-			the = quick + brown + fox;
-			jumped = over * the * lazy * dog;
-		} else {
-			buddha = jumped - over - the - wall;
-			toad = in / the / hole;
-		}
-	}
-	while ((l = m * n) && (o < p)) {
-		if (sandwich > idiot || kitchen == hell) then {
-			you = donkey;
-			food = raw;
-		} else {
-			read cards;
-			print ace;
-			print jack;
-			print queen;
-			print king;
-			read joker;
-			if (joker == 1) then {
-				read cards;
-				ace = 1;
-				jack = 11;
-				queen = 12;
-				king = 13;
-			} else {
-				shuffle = 1;
-				swap = 1;
-				ace = 13; //50
-				jack = 12;
-				queen = 11;
-				king = 1;
-			}
-		}
-	}
-	q = 2 - x;
-	r = r + 1;
-	s = s * s * s - a + c;
-	t = s;
-	u = u - x;
-	print v;
-	call Two;
-	read v;
-	call Three;
-	while (cap > 1) {
-		if (week == recess) then {
-			study = 1;
-			sleep = 1;
-		} else {
-			cap = cap - 1;
-			depression = 1;
-			sleep = 0;
-			brain = dead;
-		}
-		w = x + y + z;
-		y = a - b / c;
-		z = z * 2;
-		while (twilight > 0) {
-			read moon;
-			print sun;
-			read star;
-			print galaxy;
-			moon = sky;
-			break = dawn; //80
-			midnight = sun;
-			twilight = twilight - 1;
-		}
-		if (sun > moon) then {
-			fangs = 0;
-			jacob = black;
-			bella = wolf;
-			read cub;
-		} else {
-			fangs = 2;
-			sparkle = 1;
-			blood = 450;
-		}
-	}
-	z = y - x / w;
-	v = u + t;
-	s = r * q - p;
-	p = o + n - m * l;
-	k = k;
-	j = i - h / g * f;
-	e = d / c * b - a;
-}
-
-procedure Two {
-	while (water == wet) {
-		read week;
-		print day; //100
-		day = mon;
-		if (study > sleep) then {
-			day = fri;
-		} else {
-			read depression;
-			depression = depression * 5;
-			sleep = sleep - 100;
-		}
-	}
-	read week;
-	if (day > fri) then {
-		while (sky != black) {
-			energy = 10;
-			notes = 0;
-			school = 0;
-			play = 50;
-			sky = white;
-		}
-		sleep = 1;
-		energy = 0;
-	}
-	game = 1;
-	state = 1;
-	time = 0;
-	chessboard = 100; //120
-	pawn = 8;
-	knight = 2;
-	bishop = knight;
-	rook = bishop;
-	queen = 1;
-	king = 1;
-	while (game == 1) {
-		if (turn == 1) then {
-			read moves;
-			moves = moves - 1;
-		} else {
-			turn = turn + 1;
-		}
-		if (king == 0) then {
-			game = 0;
-		}
-		if (pawn > 4) then {
-			pawn = pawn - 1;
-		} else {
-			rook = knight - 1;
-			knight = bishop - 1;
-			bishop = pawn/2;
-		}
-		if (game != 0) then {
-			state = state + 1;
-		} else {
-			time = time + 1;
-		}
-	}
-	call Three;
-}
-
-procedure Three {
-	while (energy > 0) {
-		if (sleep > 0) then {
-			read book;
-			print notes;
-			school = 1;
-			play = 1;
-		} else {
-			sleep = 1;
-			play = 0;
-		}
-		energy = energy * sleep - play - school;
-	}
-	game = 1;
-	while (game != 2) {
-		pass = 0;
-		test = 1;
-		while (test < game) {
-			if (water == wet) then {
-				sun = dry;
-			} else {
-				fish = dead;
-				water = dry;
-				rain = 1;
-			}
-			test = test + 1;
-		}
-		if (test == pass) then {
-			game = 2;
-		} else {
-			game = 1;
-		}
-	}
-	while (game == 2) {
-		read die;
-		if (die > 3) then {
-			roll = big;
-		} else {
-			roll = small;
-		}
-		if (card == ace) then {
-			game == 0;
-		} else {
-			card = joker;
-			die = 1;
-		}
-		if (die > 6) then {
-			game = 0;
-			read die;
-		} else {
-			print die;
-			read suit;
-			while (suit != club) {
-				read card;
-				if (suit == spade) then {
-					read die;
-				} else {
-					game = 1;
-				}
-			}
-		}
-		if (card > 21) then {
-			game = 0;
-			play = 0;
-		} else {
-			while (card < 5) {
-				card = card + 1;
-			}
-		}
-	}
-	call Four;
-}
-
-procedure Four {
-	while (hour < 24) {
-		read fish;
-		read cow;
-		read chicken;
-		if ((sky == white) && (moon == yellow)) then {
-			breakfast = fish;
-			cow = grass;
-			chicken = kfc;
-		} else {
-			breakfast = 0;
-			fish = sleep;
-			cow = dead;
-			chicken = wet;
-		}
-		if ((sun == yellow) && (sky == blue)) then {	
-			lunch = cow + chicken;
-			while (lunch > 1) {
-				lunch = lunch - 1;
-				print drink;
-				if (drink == 1) then {
-					coke = 0;
-					pepsi = light;
-				} else {
-					coke = diet;
-					dew = mountain;
-				}
-			}
-		} else {
-			day = night;
-			lunch = 0;
-			dinner = 0;
-			supper = fish;
-		}
-	}
-	while (day < 365) {
-		read week;
-		if (day == mon) then {
-			print book;
-			read notes;
-		} else {
-			while (day < fri) {
-				city = 7;
-				mountain = 4;
-				road = 1;
-				mh = 370;
-				milky = way;
-			}
-			trip = 1;
-			life = 42;
-			rule = 34;
-		}
-	}
-	while (year < 2000) {
-		independance = 1965;
-		colonize = 1930;
-		covid = 19;
-		plague = black;
-		national = 88;
-		pm = 3;
-		if (president == f) then {
-			independance = 1;
-			year = 2000;
-			century = 21;
-			year = year + 1;
-		} else {
-			century = 19;
-			witch = 0;
-			pyre = fire + flames;
-			year = year + 1;
-		}
-	}
-
-}
+1 - syn wildcard
+assign a1;
+Select a1 such that Affects(a1, _)
+1, 2, 3, 8, 9, 10, 13, 14, 15,  17, 24, 26, 27, 29, 33, 38, 39, 41, 45, 48, 52, 53, 54, 57, 58, 59, 60, 61, 62, 73, 74, 78, 80, 82, 86, 88, 90, 95
+5000
+2 - syn wildcard
+assign a;
+Select a such that Affect*(a, _)
+1, 2, 3, 8, 9, 10, 13, 14, 15,  17, 24, 26, 27, 29, 33, 38, 39, 41, 45, 48, 52, 53, 54, 57, 58, 59, 60, 61, 62, 73, 74, 78, 80, 82, 86, 88, 90, 95
+5000
+3 - wildcard syn
+assign a;
+Select a such that Affects(_, a)
+13, 14, 15, 17, 18, 19, 27, 28, 29, 30, 38, 39, 41, 42, 45, 46, 50, 52, 53, 54, 57, 58, 59, 60, 61, 62, 63, 67, 73, 74, 75, 76, 91, 92, 94, 96
+5000
+4 - wildcard syn 
+assign a1;
+Select a1 such that Affects*(_, a1)
+13, 14, 15, 17, 18, 19, 27, 28, 29, 30, 38, 39, 41, 42, 45, 46, 50, 52, 53, 54, 57, 58, 59, 60, 61, 62, 63, 67, 73, 74, 75, 76, 91, 92, 94, 96
+5000
+5 - syn syn
+assign a1, a2;
+Select a1 such that Affects(a1, a2)
+1, 2, 3, 8, 9, 10, 13, 14, 15,  17, 24, 26, 27, 29, 33, 38, 39, 41, 45, 48, 52, 53, 54, 57, 58, 59, 60, 61, 62, 73, 74, 78, 80, 82, 86, 88, 90, 95
+5000
+6 - syn syn 
+assign a1, a2;
+Select a1 such that Affects*(a1, a2)
+1, 2, 3, 8, 9, 10, 13, 14, 15,  17, 24, 26, 27, 29, 33, 38, 39, 41, 45, 48, 52, 53, 54, 57, 58, 59, 60, 61, 62, 73, 74, 78, 80, 82, 86, 88, 90, 95
+5000
+7 - test affected statement in else block
+assign a;
+Select a such that Affects(a, 76)
+1, 2, 3
+5000
+8 - assignment skip while loops to affect
+stmt s;
+Select BOOLEAN such that Affects(78, 92)
+TRUE
+5000
+9 - deeply nested stmt in while loops 
+assign a1
+Select s such that Affects(a1, 91)
+88
+5000
+10 - deeply nested s in if elses affects
+assign a1;
+Select a1 such that Affects(45, a1)
+17, 18, 61
+5000
+11 - affects mix next
+assign a1, a2;
+Select <a2, a1> such that Affects(a1, a2) and Next*(a2, a1)
+38 17,39 17,61 17,29 24,38 24,41 24,50 24,27 26,28 27,30 29,50 33,41 38,45 38,41 39,61 39,42 41,50 41,61 45,50 48,53 52,54 53,57 54,58 57,59 58,60 59,61 60
+5000
+12 - test affects* through many (7) assigns
+stmt s;
+Select BOOLEAN such that Affects*(53, 60)
+TRUE
+5000
+13 - positive test affects* 9 -> 15 -> 38 -> 45 -> 61
+stmt s;
+Select BOOLEAN such that Affects*(9, 61)
+TRUE
+5000
+14 - negative test read statement modifies
+stmt s;
+Select BOOLEAN such that Affects*(46, 48)
+FALSE
+5000
+15 - negative test call statement modifies
+stmt s;
+Select BOOLEAN such that Affects*(30, 33)
+FALSE
+5000
+16 - 2clause calls
+assign a1, a2; procedure(p, q)
+Select q such that Affects(a1, a2) and Calls(p, q)
+two, three
+5000
+17 - 2clause parent*
+assign a1, a2; if ifs;
+Select a1 such that Affects(a1, a2) and Parent*(ifs, a1)
+8, 9, 10, 14, 15, 17, 24, 26, 27, 29, 33, 38, 39, 41, 45, 48, 52, 53, 54, 57, 58, 59, 60, 61, 62, 64, 73, 74, 90
+5000
+18 - 2clause follows
+stmt s, s2; assign a, a2;
+Select BOOLEAN such that Affects(a, a2) and Follows*(s, s2)
+TRUE
+5000
+19 - 2clause connected syn affects affects
+assign a1, a2, a3;
+Select a2 such that Affects(a1, a2) and Affects(a2, a3)
+14, 15, 17, 27, 29, 38, 39, 41, 45, 48, 52, 53, 54, 57, 58, 59, 60, 61, 62, 64, 73, 74
+5000
+20 - 2clause connected syn affects parent
+assign a1, a2; while w;
+Select a2 such that Affects(a1, a2) and Parent(w, a1)
+17, 61, 78, 80, 82, 86, 88
+5000
+21 - 2clause connected syn affects follows*
+assign a1, a2;
+Select a2 such that Affects(a1, a2) and Follows*(a1, a2)
+62, 61, 27, 28, 30, 42, 53, 54, 57, 58, 59, 60, 74, 75, 96
+5000
+22 - 2clause connected syn affects uses
+assign a1, a2; variable v;
+Select v such that Affects(a1, a2) and Uses(a2, v)
+a, b, c, d, e, f
+5000
+23 - 2clause connected syn affects modifies
+assign a1, a2; variable v;
+Select <a1, a2, v.varName> such that Affects(a1, a2) and Modifies(a2, v)
+8 13 d,9 13 d,10 13 d,4 14 c,8 15 e,9 15 e,8 17 f,8 18 d,9 19 a,14 19 a,26 27 a,27 28 a,29 30 a,15 38 d,17 38 d,17 39 f,15 39 b,39 41 b,41 42 d,38 45 a,38 46 d,46 48 b,33 50 b,41 50 b,48 50 b,9 52 a,52 53 b,53 54 c,54 57 d,57 58 e,58 59 f,59 60 a,17 61 b,39 61 b,45 61 b,57 61 b,59 61 b,61 62 a,54 62 a,57 62 a,58 62 a,15 62 a,59 62 a,39 62 a,17 62 a,4 63 d,5 63 d,9 67 e,9 73 a,73 74 b,73 75 d,74 75 d,1 76 f,2 76 f,3 76 f,88 91 b,86 92 b,88 92 b,90 92 b,1 94 b,78 94 b,80 94 b,82 94 b,95 96 c
+5000
+24 - 2clause connected syn affects next
+stmt s; assign a1, a2;
+Select BOOLEAN such that Affects(a1, a2) and Next(a2, s)
+TRUE
+5000
+25 - 2clause connected syn affects with
+assign a1, a2;
+Select a2 such that Affects(a1, a2) with a1.stmt# = 80
+94
+5000
+26 - 2clause connected syn affects* affects
+assign a1, a2, a3;
+Select a3 such that Affects(a1, a2) and Affects*(a2, a3)
+14, 19, 28, 30, 38, 39, 41, 42, 45, 46, 48, 50, 53, 54, 57, 58, 59, 60, 61, 62, 74, 75
+5000
+27 - 2clause connected syn affects* parent*
+assign a1, a2; if ifs;
+Select ifs such that Affects*(a1, a2) and Parent*(ifs, a1)
+1, 2, 3, 8, 9, 10, 13, 14, 15,  17, 24, 26, 27, 29, 33, 38, 39, 41, 45, 48, 52, 53, 54, 57, 58, 59, 60, 61, 62, 73, 74, 78, 80, 82, 86, 88, 90, 95
+7, 12, 20, 25, 40
+5000
+28 - 2clause connected syn affects* follows
+assign a1, a2;
+Select <a1, a2> such that Affects*(a1, a2) and Follows(a1, a2)
+13 14,26 27,27 28,29 30,41 42,52 53,53 54,57 58,58 59,59 60,73 74,74 75,95 96
+5000
+29 - 2clause connected syn affects* uses
+assign a1, a2; variable v;
+Select v such that Affects*(a1, a2) and Uses(a2, v)
+a, b, c, d, e, f
+5000
+30 - 2clause connected syn affects* modifies
+assign a1, a2; variable v;
+Select a1 such that Affects*(a1, a2) and Modifies(a2, v)
+1, 2, 3, 8, 9, 10, 13, 14, 15,  17, 24, 26, 27, 29, 33, 38, 39, 41, 45, 48, 52, 53, 54, 57, 58, 59, 60, 61, 62, 73, 74, 78, 80, 82, 86, 88, 90, 95
+5000
+31 - 2clause connected syn affects* next*
+assign a1, a2;
+Select a1 such that Affects*(a1, a2) and Next*(a1, a2)
+1, 2, 3, 8, 9, 10, 13, 14, 15,  17, 24, 26, 27, 29, 33, 38, 39, 41, 45, 48, 52, 53, 54, 57, 58, 59, 60, 61, 62, 73, 74, 78, 80, 82, 86, 88, 90, 95
+5000
+32 - 2clause connected syn affects* with
+assign a1, a2;
+Select a1.stmt# such that Affects*(a1, a2) with a2.stmt# = 94
+1, 8, 9, 15, 17, 24, 38, 39, 45, 52, 53, 54, 57, 58, 59, 60, 61, 62, 73, 78, 80, 82
+5000
+33 - 3clause affects modifies with 
+assign a1, a2; variable v;
+Select a1 such that Affects(a1, a2) and Modifies(a1, v) with v.varName = "a"
+1, 8, 26, 27, 29, 45, 52, 60, 62, 73, 78, 80, 82, 86, 88, 90, 95
+5000
+34 - 3clause 2 connected syn affects follows next
+assign a1, a2; stmt s1, s2;
+Select s2 such that Affects(a1, a2) and Follows(a1, s1) and Next(s1, s2)
+3, 4, 5, 10, 11, 12, 16, 17, 19, 26, 28, 29, 31, 34, 40, 41, 43, 45, 47, 50, 54, 55, 56, 59, 60, 61, 62, 75, 77, 80, 82, 84, 88, 90, 97
+5000
+35 - 3clause 2 connected syn affects follows* next
+assign a1, a2; stmt s1, s2;
+Select s2 such that Affects(a1, a2) and Follows*(a1, s1) and Next(s1, s2)
+3, 4, 5, 6, 7, 8, 10, 11, 12, 13, 16, 17, 19, 21, 26, 28, 29, 30, 31, 32, 33, 40, 41, 43, 44, 45, 47, 48, 49, 50, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 75, 77, 78, 80, 82, 84, 88, 90, 91, 92, 94, 97
+5000
+36 - 3clause 2 connected syn affects uses parent*
+if ifs; assign a1, a2; variable v;
+Select ifs.stmt# such that Affects(a1, a2) and Uses(a2, v) and Parent*(ifs, a2)
+7, 12, 20, 25, 40
+5000
+37 - 3clause 2 connected syn affects follows parent*
+if ifs; assign a1, a2; variable v; stmt s;
+Select ifs such that Affects(a1, a2) and Follows(s, a1) and Parent*(s, a2)
+7, 12, 20, 25, 40
+5000
+38 - 3clause 2 connected syn affects affects* pattern
+assign a1, a2, a3;
+Select a3 such that Affects(a1, a2) and Affects*(a2, a3) pattern a3(_, _"a"_) with a1.stmt# = 38
+45, 61, 17, 18, 94, 53 
+5000
+39 - 3clause 2 connected syn affects parent pattern
+assign a1, a2; while w;
+Select a1.stmt# such that Affects(a1, a2) and Parent*(w, a1) and Parent(ifs, a2) pattern w("b", _) and pattern ifs("a", _, _)
+24, 26, 27, 29
+5000
+40 - 3clause 2 connected syn affects uses pattern
+if ifs; variable v; assign a1, a2;
+Select <ifs, v> such that Affects(a1, a2) and Uses(a1, v) pattern ifs(v, _, _) 
+7 a,12 b,12 c,12 d,20 d,20 f,25 a,25 b,25 c,25 d,25 e,40 d,40 c,89 f
+5000
+41 - 3clause 2 connected syn affects* follows* parent
+assign a1, a2; while w;
+Select BOOLEAN such that Affects*(a1, a2) and Follows*(a1, a2) and Parent(w, a2)
+TRUE
+5000
+42 - 3clause affects* parent with
+assign a1, a2; stmt s;
+Select a1 such that Affects*(a1, a2) and Parent*(s, a2) with s.stmt# = 16
+8, 9, 14, 15, 17, 24, 26, 27, 29, 33, 38, 39, 41, 45, 48, 52, 53, 54, 57, 58, 59, 60, 61
+5000
+43- affects modifies calls uses
+assign a1, a2; procedure p, q;
+Select <a1.stmt#, a2, p> such that Affects(a1, a2) and Modifies(a1, "b") and Calls(p, q) and Uses(p, "b")
+2 76 main,9 13 main,9 15 main,9 19 main,9 52 main,24 29 main,24 38 main,33 50 main,41 42 main,41 50 main,48 50 main,53 54 main,61 19 main,61 52 main,61 62 main,74 75 main
+5000
+44 - affects uses modifies with
+procedure p; assign a1, a2; variable v;
+Select <p.procName, a2, v> such that Affects(a1, a2) and Uses(a1, v) and Modifies(p, v) with p.procName = "main"
+main 14 a,main 14 b,main 14 c,main 17 a,main 17 d,main 17 f,main 18 a,main 18 d,main 18 f,main 19 d,main 19 b,main 19 f,main 19 a,main 28 a,main 30 b,main 38 a,main 38 b,main 38 d,main 39 a,main 41 a,main 41 b,main 41 d,main 41 e,main 41 f,main 42 a,main 42 b,main 42 c,main 42 d,main 42 e,main 42 f,main 45 a,main 45 b,main 45 e,main 45 f,main 46 a,main 46 b,main 46 e,main 46 f,main 50 a,main 50 b,main 50 c,main 50 d,main 50 e,main 50 f,main 52 a,main 52 d,main 52 f,main 53 b,main 54 a,main 57 b,main 58 c,main 59 d,main 60 e,main 61 a,main 61 c,main 61 d,main 61 e,main 61 f,main 62 a,main 62 b,main 62 c,main 62 d,main 62 e,main 62 f,main 74 b,main 75 a,main 75 b,main 94 b,main 94 c,main 94 d,main 94 e,main 94 f,main 96 b
+5000
+45 - affects next* parent*
+assign a1, a2; if ifs; while w;
+Select a1 such that Affects(a1, a2) and Next*(a2, a1) and Parent*(ifs, a1) and Parent*(w, a2)
+17, 24, 26, 27, 29, 33, 38, 39, 41, 45, 48, 52, 53, 54, 57, 58, 59, 60, 61
+5000
+46 - affect modifies calls* with
+call c; assign a1, a2; stmt s; procedure p; procedure q;
+Select s such that Affects(a1, a2) and Modifies(c, v) and Calls*(p, q) with c.procName = p.procName
+none
+5000
+47 - cross product
+prog_line n; assign a1, a2; variable v; procedure p, q; 
+Select v such that Affects*(a1, a2) and Calls*(p, q) and Next*(n, 12) and Modifies(q, v)
+a, c, A, aaaa, Da, CccCCc, F
+5000
+48 - large ans 
+assign a1, a2; stmt s1, s2; variable v;
+Select <a1, a2, v> such that Affects(a1, a2) and Follows(s1, a1) and Parent*(s2, s1) and Uses(s2, v) with v.varName = "b"
+9 13 b,9 15 b,9 19 b,9 52 b,9 67 b,9 73 b,10 13 b,14 19 b,15 62 b,15 38 b,15 41 b,24 29 b,24 38 b,27 28 b,29 30 b,33 50 b,38 41 b,38 45 b,38 46 b,39 41 b,39 61 b,39 62 b,48 50 b,52 53 b,53 54 b,54 57 b,54 62 b,54 19 b,57 58 b,57 61 b,57 62 b,58 59 b,58 62 b,58 38 b,58 41 b,59 60 b,59 61 b,59 62 b,60 61 b,60 17 b,60 18 b,61 62 b,61 19 b,61 52 b,62 94 b,73 74 b,73 75 b,73 94 b,74 75 b
+5000 
