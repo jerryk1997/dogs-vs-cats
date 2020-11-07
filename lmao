@@ -20,7 +20,7 @@ book a,book ace,book b,book big,book bishop,book black,book blue,book book,book 
 5000
 5 - optimization connect synonyms 1
 assign a; variable v; stmt s; read re; while w;
-Select <a, v> such that Next*(s, a) and Modifies(a, v) and Modifies(re, v) and Parent*(w, a) pattern a(_, _"depression"_)  
+Select <a, v> such that Next*(s, a) and Modifies(a, v) and Modifies(re, v) and Parent*(w, a) pattern a(_, _"depression"_)
 105 depression
 5000
 6 - connect synonyms 2
@@ -53,19 +53,19 @@ stmt s; variable v; procedure p, q; assign a; while w;
 Select <s, v> such that Modifies(s, v) and Calls(p, q) and Next*(s, a) and Parent*(w, s) pattern a(v, _) with v.varName = p.procName
 none
 5000
-12 -  clause no result 2 
+12 -  clause no result 2
 assign a1, a2; variable v; while w; assign a;
 Select v such that Follows(a1, a2) and Uses(a1, "independance") and Parent*(w, a1) and Next*(a2, a) and Affects*(a2, a1) pattern a(v, _)
 none
 5000
-13 -  clause no result 3 
+13 -  clause no result 3
 assign a1, a2; variable v; while w; assign a;
 Select a such that Affects*(a1, a2) and Follows*(a1, a2) and Parent*(w, a1) and Modifies(a1, v) pattern w("depression", _) with v.varName = "a"
 none
 5000
 14 - merge no result 1
 stmt s; variable v; assign a; while w; procedure p, q;
-Select <s, v> such that Follows(s, a) and Modifies(a, v) and Uses(a, v) and Parent(w, a) and Calls*(p, q) pattern w(_, _) 
+Select <s, v> such that Follows(s, a) and Modifies(a, v) and Uses(a, v) and Parent(w, a) and Calls*(p, q) pattern w(_, _)
 none
 5000
 15 - merge no result 2
